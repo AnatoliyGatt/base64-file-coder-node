@@ -58,7 +58,7 @@ describe("base64-file-coder", function() {
         });
 
         describe("#decode()", function() {
-            it("should decode base64 file string to Buffer", function() {
+            it("should decode Base64 file string to byte buffer", function() {
                 var buffer = base64File.decode("TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVlciBhZGlwaXNjaW5nIGVsaXQu");
                 var bufferString = buffer.toString();
                 var expectedBufferString = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.";
