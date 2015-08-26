@@ -8,6 +8,7 @@ Base64 file encoder/decoder.
 [![devDependencies Status][devDependencies-status-badge]][devDependencies-status-page-url]
 
 [![Travis CI Build Status][travis-ci-build-status-badge]][travis-ci-build-status-page-url]
+[![Code Climate Status][code-climate-status-badge]][code-climate-status-page-url]
 
 [![NPM Statistics][npm-statistics-image]][npm-url]
 
@@ -68,5 +69,8 @@ Distributed under the [MIT License](LICENSE).
 
 [travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/base64-file-coder-node.svg?style=flat-square
 [travis-ci-build-status-page-url]: https://travis-ci.org/AnatoliyGatt/base64-file-coder-node
+
+[code-climate-status-badge]: https://img.shields.io/codeclimate/github/AnatoliyGatt/base64-file-coder-node.svg?style=flat-square
+[code-climate-status-page-url]: https://codeclimate.com/github/AnatoliyGatt/base64-file-coder-node
 
 [npm-package-statistics-badge]: https://nodei.co/npm/base64-file-coder-node.png?downloads=true&downloadRank=true&stars=true
