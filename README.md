@@ -5,6 +5,7 @@ Base64 file encoder/decoder.
 [![NPM Package Version][npm-package-version-badge]][npm-package-url]
 [![NPM Package License][npm-package-license-badge]][npm-package-license-url]
 [![NPM Package Downloads][npm-package-downloads-badge]][npm-package-url]
+[![Dependencies Status][dependencies-status-badge]][dependencies-status-page-url]
 [![devDependencies Status][devDependencies-status-badge]][devDependencies-status-page-url]
 
 [![Node Version][node-version-badge]][node-downloads-page-url]
