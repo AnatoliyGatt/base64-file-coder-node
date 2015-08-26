@@ -60,6 +60,9 @@ Distributed under the [MIT License](LICENSE).
 
 [npm-package-downloads-badge]: https://img.shields.io/npm/dm/base64-file-coder-node.svg?style=flat-square
 
+[dependencies-status-badge]: https://david-dm.org/AnatoliyGatt/base64-file-coder-node.svg?style=flat-square
+[dependencies-status-page-url]: https://david-dm.org/AnatoliyGatt/base64-file-coder-node#info=dependencies
+
 [devDependencies-status-badge]: https://david-dm.org/AnatoliyGatt/base64-file-coder-node/dev-status.svg?style=flat-square
 [devDependencies-status-page-url]: https://david-dm.org/AnatoliyGatt/base64-file-coder-node#info=devDependencies
 
