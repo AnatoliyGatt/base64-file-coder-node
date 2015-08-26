@@ -11,6 +11,7 @@ Base64 file encoder/decoder.
 [![Node Version][node-version-badge]][node-downloads-page-url]
 [![Travis CI Build Status][travis-ci-build-status-badge]][travis-ci-build-status-page-url]
 [![Code Climate Status][code-climate-status-badge]][code-climate-status-page-url]
+[![Code Climate Test Coverage Status][code-climate-test-coverage-status-badge]][code-climate-test-coverage-status-page-url]
 [![Inch CI Documentation Coverage Status][inch-ci-documentation-coverage-status-badge]][inch-ci-documentation-coverage-status-page-url]
 
 [![NPM Package Statistics][npm-package-statistics-badge]][npm-package-url]
@@ -78,6 +79,9 @@ Distributed under the [MIT License](LICENSE).
 
 [code-climate-status-badge]: https://img.shields.io/codeclimate/github/AnatoliyGatt/base64-file-coder-node.svg?style=flat-square
 [code-climate-status-page-url]: https://codeclimate.com/github/AnatoliyGatt/base64-file-coder-node
+
+[code-climate-test-coverage-status-badge]: https://img.shields.io/codeclimate/coverage/github/AnatoliyGatt/base64-file-coder-node.svg?style=flat-square
+[code-climate-test-coverage-status-page-url]: https://codeclimate.com/github/AnatoliyGatt/base64-file-coder-node/coverage
 
 [inch-ci-documentation-coverage-status-badge]: https://inch-ci.org/github/AnatoliyGatt/base64-file-coder-node.svg?style=flat-square
 [inch-ci-documentation-coverage-status-page-url]: https://inch-ci.org/github/AnatoliyGatt/base64-file-coder-node
