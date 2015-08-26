@@ -7,6 +7,7 @@ Base64 file encoder/decoder.
 [![NPM Package Downloads][npm-package-downloads-badge]][npm-package-url]
 [![devDependencies Status][devDependencies-status-badge]][devDependencies-status-page-url]
 
+[![Node Version][node-version-badge]][node-downloads-page-url]
 [![Travis CI Build Status][travis-ci-build-status-badge]][travis-ci-build-status-page-url]
 [![Code Climate Status][code-climate-status-badge]][code-climate-status-page-url]
 
@@ -66,6 +67,9 @@ Distributed under the [MIT License](LICENSE).
 
 [devDependencies-status-badge]: https://david-dm.org/AnatoliyGatt/base64-file-coder-node/dev-status.svg?style=flat-square
 [devDependencies-status-page-url]: https://david-dm.org/AnatoliyGatt/base64-file-coder-node#info=devDependencies
+
+[node-version-badge]: https://img.shields.io/node/v/base64-file-coder-node.svg?style=flat-square
+[node-downloads-page-url]: https://nodejs.org/download/
 
 [travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/base64-file-coder-node.svg?style=flat-square
 [travis-ci-build-status-page-url]: https://travis-ci.org/AnatoliyGatt/base64-file-coder-node
