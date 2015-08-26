@@ -1,4 +1,4 @@
-# base64-file-coder for Node.js
+![base64-file-coder-node Logo][logo]
 
 Base64 file encoder/decoder.
 
@@ -55,6 +55,8 @@ $ npm test
 ## License
 
 Distributed under the [MIT License](LICENSE).
+
+[logo]: https://cldup.com/2bQRmKNW6o.png
 
 [npm-package-url]: https://npmjs.org/package/base64-file-coder-node
 
