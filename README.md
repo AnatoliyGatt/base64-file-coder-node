@@ -11,7 +11,7 @@ Base64 file encoder/decoder.
 [![Travis CI Build Status][travis-ci-build-status-badge]][travis-ci-build-status-page-url]
 [![Code Climate Status][code-climate-status-badge]][code-climate-status-page-url]
 
-[![NPM Statistics][npm-statistics-image]][npm-url]
+[![NPM Package Statistics][npm-package-statistics-badge]][npm-package-url]
 
 ## Installation
 
