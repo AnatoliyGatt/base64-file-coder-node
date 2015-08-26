@@ -17,6 +17,7 @@
 * Add devDependencies badge to README.md
 * Change badges style from flat to flat-square in README.md
 * Update base64-file-coder.js custom error messages
+* Update base64-file-coder.js tests
 
 1.0.0 / 2015-08-10
 ==================
