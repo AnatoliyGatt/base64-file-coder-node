@@ -49,16 +49,19 @@ $ npm test
 
 Distributed under the [MIT License](LICENSE).
 
-[npm-package-url]: https://npmjs.org/package/base64-coder-node
+[npm-package-url]: https://npmjs.org/package/base64-file-coder-node
 
-[npm-package-version-badge]: https://img.shields.io/npm/v/base64-coder-node.svg?style=flat-square
+[npm-package-version-badge]: https://img.shields.io/npm/v/base64-file-coder-node.svg?style=flat-square
 
-[npm-package-license-badge]: https://img.shields.io/npm/l/base64-coder-node.svg?style=flat-square
+[npm-package-license-badge]: https://img.shields.io/npm/l/base64-file-coder-node.svg?style=flat-square
 [npm-package-license-url]: http://opensource.org/licenses/MIT
 
-[npm-package-downloads-badge]: https://img.shields.io/npm/dm/base64-coder-node.svg?style=flat-square
+[npm-package-downloads-badge]: https://img.shields.io/npm/dm/base64-file-coder-node.svg?style=flat-square
 
-[travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/base64-coder-node.svg?style=flat-square
-[travis-ci-build-status-page-url]: https://travis-ci.org/AnatoliyGatt/base64-coder-node
+[devDependencies-status-badge]: https://david-dm.org/AnatoliyGatt/base64-file-coder-node/dev-status.svg?style=flat-square
+[devDependencies-status-page-url]: https://david-dm.org/AnatoliyGatt/base64-file-coder-node#info=devDependencies
 
-[npm-package-statistics-badge]: https://nodei.co/npm/base64-coder-node.png?downloads=true&downloadRank=true&stars=true
+[travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/base64-file-coder-node.svg?style=flat-square
+[travis-ci-build-status-page-url]: https://travis-ci.org/AnatoliyGatt/base64-file-coder-node
+
+[npm-package-statistics-badge]: https://nodei.co/npm/base64-file-coder-node.png?downloads=true&downloadRank=true&stars=true
