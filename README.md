@@ -23,9 +23,9 @@ Base64 file encoder/decoder.
 ## Usage Example
 
 ```javascript
-var base64File = require("base64-file-coder-node")();
+var base64File = require('base64-file-coder-node')();
 
-base64File.encode("path/to/file", function(error, base64) {
+base64File.encode('path/to/file', function(error, base64) {
     if(!error) {
         console.log(base64);
     } else {
@@ -33,7 +33,7 @@ base64File.encode("path/to/file", function(error, base64) {
     }
 });
 
-console.log(base64File.decode("TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZX..."));
+console.log(base64File.decode('TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZX...'));
 ```
 
 ***
