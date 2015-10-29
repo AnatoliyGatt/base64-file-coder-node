@@ -1,3 +1,18 @@
+1.0.3 / 2015-10-29
+==================
+
+* Fix anonymous functions declaration coding style in base64-file-coder.js tests
+* Fix anonymous functions declaration coding style in base64-file-coder.js
+* Fix 'if-else statement' coding style in base64-file-coder.js tests
+* Fix 'if-else statements' coding style in base64-file-coder.js
+* Fix 'if statements' coding style in base64-file-coder.js
+* Update dev dependencies
+* Update .travis.yml to run tests against node v4.2.0
+* Remove manual deletion script of coverage directory in .travis.yml
+* Replace unencrypted CodeClimate repo_token with encrypted one in .travis.yml
+* Update .travis.yml to run tests against node v4.1.0
+* Update dependencies
+
 1.0.2 / 2015-10-02
 ==================
 

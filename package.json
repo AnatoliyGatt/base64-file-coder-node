@@ -1,6 +1,6 @@
 {
   "name": "base64-file-coder-node",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Base64 file encoder/decoder.",
   "keywords": [
     "base64",
