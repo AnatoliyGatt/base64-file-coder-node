@@ -25,7 +25,7 @@ Base64 file encoder/decoder.
 ```javascript
 var base64File = require('base64-file-coder-node')();
 
-base64File.encode('path/to/file', function(error, base64) {
+base64File.encode('path/to/file', function (error, base64) {
     if(!error) {
         console.log(base64);
     } else {
