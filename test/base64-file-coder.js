@@ -20,7 +20,7 @@ describe('base64-file-coder', function () {
             });
 
             it('should respond with error when called with nonexistent file path', function (done) {
-                base64File.encode(path.join(__dirname, 'resources', 'file.rtf'), function (error, base64) {
+                base64File.encode(path.join(__dirname, 'resources', 'file.rtf'), function (error) {
                     assert.throws(function () {
                         throw error;
                     }, Error);
