@@ -70,16 +70,6 @@ describe('base64-file-coder', function () {
                     base64File.decode();
                 }, Error);
             });
-
-            it('should not be overridden', function () {
-                base64File.decode = function () {
-                    return '#decode()';
-                };
-
-                assert.throws(function () {
-                    assert.notEqual(base64File.decode(), '#decode()', '#decode() should not be overridden');
-                }, Error);
-            });
         });
     });
 });
