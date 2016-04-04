@@ -45,16 +45,6 @@ describe('base64-file-coder', function () {
                     base64File.encode(function (error, base64) {});
                 }, Error);
             });
-
-            it('should not be overridden', function () {
-                base64File.encode = function () {
-                    return '#encode()';
-                };
-
-                assert.throws(function () {
-                    assert.notEqual(base64File.encode(), '#encode()', '#encode() should not be overridden');
-                }, Error);
-            });
         });
 
         describe('#decode()', function () {
