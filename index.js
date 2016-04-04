@@ -1,7 +1,7 @@
 /**
  * @module index
  * @description Entry point for base64-file-coder-node module.
- * @version 1.0.4
+ * @version 1.0.5
  * @author Anatoliy Gatt [anatoliy.gatt@aol.com]
  * @copyright Copyright (c) 2015-2016 Anatoliy Gatt
  * @license MIT

@@ -1,3 +1,20 @@
+1.0.5 / 2016-04-04
+==================
+
+* Update index.js documentation comments
+* Remove dependencies badge from README.md
+* Remove deep-freeze-node as dependency in package.json
+* Fix base64-file-coder.js tests
+* Update base64-file-coder.js tests
+* Remove require of deep-freeze-node in base64-file-coder.js
+* Update base64-file-coder.js documentation comments
+* Expose unfrozen instance of Base64FileCoder in base64-file-coder.js
+* Update dev dependencies
+* Update dependencies
+* Update copyright in base64-file-coder.js
+* Update copyright in index.js
+* Update copyright in LICENSE
+
 1.0.4 / 2016-02-28
 ==================
 
