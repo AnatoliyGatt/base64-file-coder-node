@@ -7,14 +7,8 @@ describe('base64-file-coder', function () {
         describe('#encode()', function () {
             it('should encode file to Base64', function (done) {
                 base64File.encode(path.join(__dirname, 'resources', 'file.txt'), function (error, base64) {
-                    if (!error) {
-                        var expectedBase64String = 'TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVlciBhZGlwaXNjaW5nIGVsaXQu';
-                        assert.equal(base64, expectedBase64String, 'file should be encoded to Base64');
-                    } else {
-                        assert.throws(function () {
-                            throw error;
-                        }, Error);
-                    }
+                    var expectedBase64String = 'TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVlciBhZGlwaXNjaW5nIGVsaXQu';
+                    assert.equal(base64, expectedBase64String, 'file should be encoded to Base64');
                     done();
                 });
             });
