@@ -1,13 +1,13 @@
-var assert = require('assert');
-var base64File = require('../lib/base64-file-coder')();
-var path = require('path');
+const assert = require('assert');
+const path = require('path');
+const base64File = require('../lib/base64-file-coder')();
 
 describe('base64-file-coder', function () {
     describe('functions', function () {
         describe('#encode()', function () {
             it('should encode file to Base64', function (done) {
                 base64File.encode(path.join(__dirname, 'resources', 'file.txt'), function (error, base64) {
-                    var expectedBase64String = 'TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVlciBhZGlwaXNjaW5nIGVsaXQu';
+                    const expectedBase64String = 'TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVlciBhZGlwaXNjaW5nIGVsaXQu';
                     assert.equal(base64, expectedBase64String, 'file should be encoded to Base64');
                     done();
                 });
@@ -43,9 +43,9 @@ describe('base64-file-coder', function () {
 
         describe('#decode()', function () {
             it('should decode Base64 file string to byte buffer', function () {
-                var buffer = base64File.decode('TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVlciBhZGlwaXNjaW5nIGVsaXQu');
-                var bufferString = buffer.toString();
-                var expectedBufferString = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.';
+                const buffer = base64File.decode('TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVlciBhZGlwaXNjaW5nIGVsaXQu');
+                const bufferString = buffer.toString();
+                const expectedBufferString = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.';
                 assert.equal(bufferString, expectedBufferString, 'file should be decoded from Base64');
             });
 
